@@ -33,14 +33,27 @@ img{
     margin-right: 1em;
 }
 section{
-    color: white;
-    background-color: black;
-    width: 23em;
     margin-bottom: 1em;
+    margin-top: 1em;
+    height: 100px;
 }
 
 .clearfix::after {
 content: '';
 display: table;
 clear: both;
+}
+.fleft{
+  float: left;   
+}
+.card{
+    color: white;
+    background-color: black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color:#4d8890
 }
